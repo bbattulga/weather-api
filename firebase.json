@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "source": "functions"
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "hosting": {
+    "target": "weather-api",
+    "rewrites": [
+      {
+        "source": "/api/weather",
+        "function": "weather"
+      }
+    ]
+  }
+}

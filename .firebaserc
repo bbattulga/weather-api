@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "weather-2f6e3"
+  },
+  "targets": {
+    "weather-2f6e3": {
+      "hosting": {
+        "weather-api": [
+          "weather-api-869bf"
+        ]
+      }
+    }
+  }
+}
